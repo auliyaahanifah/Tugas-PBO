@@ -30,7 +30,7 @@ public class Main{
         }
         System.out.println("Nama = " + nama);
         System.out.println("Nilai Tertinggi = " + max);
-        System.out.println("Nilai Terrendah = " + min);
+        System.out.println("Nilai Terendah = " + min);
         System.out.println("Rata-rata = " + mean);
     }
 }
