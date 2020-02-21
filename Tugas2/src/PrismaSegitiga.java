@@ -9,7 +9,7 @@ public class PrismaSegitiga extends Segitiga {
 
     @Override
     double  luasSegitiga (){
-        return luas ;  // luasnya static
+        return luas ;  
     }
 
     double Volume (double Tinggi3d){
