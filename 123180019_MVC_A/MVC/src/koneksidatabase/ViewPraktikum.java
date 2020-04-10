@@ -29,8 +29,8 @@ public class ViewPraktikum extends JFrame {
     JButton btnBatalPanel = new JButton("Batal");
     JButton btnHapusPanel = new JButton("Hapus");
     JButton btnEditPanel = new JButton("Edit");
-    JLabel lform= new JLabel ("FORM PENGISIAN DATA MAHASISWA");
-    JLabel lData= new JLabel (" 'DATA MAHASISWA'  ");
+    JLabel lform= new JLabel ("FORM DATA MAHASISWA");
+    JLabel lData= new JLabel (" DATA MAHASISWA  ");
 
     JTable tabel;
     DefaultTableModel tableModel;
@@ -57,7 +57,6 @@ public class ViewPraktikum extends JFrame {
         add(scrollPane);
         scrollPane.setBackground(PINK);
         scrollPane.setBounds(20, 215, 700, 300);
-        //scrollPane.setBounds(20, 145, 700, 300);
         scrollPane.setVerticalScrollBarPolicy(ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);
 
         add(lform);
