@@ -60,7 +60,7 @@ public class ViewPraktikum extends JFrame {
         scrollPane.setVerticalScrollBarPolicy(ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);
 
         add(lform);
-        lform.setBounds(160,5, 720, 20);
+        lform.setBounds(200,5, 720, 20);
         add(lNim);
         lNim.setBounds(20, 35, 250, 20);
         add(tfnim);
