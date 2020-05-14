@@ -35,10 +35,10 @@ public class ControllerAdminMember implements ActionListener {
                 int row = viewAdminMember.table.getSelectedRow();
 
                 viewAdminMember.tfEmail.setText(viewAdminMember.table.getValueAt(row,1).toString());
-                viewAdminMember.tfPassword.setText(viewAdminMember.table.getValueAt(row,2).toString());
-                viewAdminMember.tfName.setText(viewAdminMember.table.getValueAt(row,3).toString());
+                viewAdminMember.tfName.setText(viewAdminMember.table.getValueAt(row,2).toString());
+                viewAdminMember.tfNoHp.setText(viewAdminMember.table.getValueAt(row,3).toString());
                 viewAdminMember.tfAddress.setText(viewAdminMember.table.getValueAt(row,4).toString());
-                viewAdminMember.tfNoHp.setText(viewAdminMember.table.getValueAt(row,5).toString());
+                viewAdminMember.tfPassword.setText(viewAdminMember.table.getValueAt(row,5).toString());
             }
         });
     }
