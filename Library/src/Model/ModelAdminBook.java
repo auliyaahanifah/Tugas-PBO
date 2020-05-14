@@ -46,11 +46,13 @@ public class ModelAdminBook {
         return data;
     }
 
-    public int insertBook(String bookTitle, String author, String genre, String stock){
+    public int insertBook(String bookTitle, String author,
+                          String genre, String stock){
         int result = 0;
         try {
             String query = "INSERT INTO books VALUES " +
-                    "(DEFAULT, '" + bookTitle + "', '" + author + "', '" + genre + "', " + stock + ")";
+                    "(DEFAULT, '" + bookTitle + "', '" +
+                    author + "', '" + genre + "', " + stock + ")";
             statement = Database.getConnection().createStatement();
             statement.executeUpdate(query);
             result = 1;
