@@ -15,14 +15,14 @@ public class ViewAdminMember extends JFrame {
 
     JLabel lEmail = new JLabel("Email");
     public JTextField tfEmail = new JTextField();
-    JLabel lPassword = new JLabel("Password");
-    public JTextField tfPassword = new JTextField();
     JLabel lName = new JLabel("Name");
     public JTextField tfName = new JTextField();
+    JLabel lNoHp = new JLabel("No Hp");
+    public JTextField tfNoHp = new JTextField();
     JLabel lAddress = new JLabel("Address");
     public JTextField tfAddress = new JTextField();
-    JLabel lNoHp = new JLabel("No Hp");
-    public  JTextField tfNoHp = new JTextField();
+    JLabel lPassword = new JLabel("Password");
+    public  JTextField tfPassword = new JTextField();
 
 
     JLabel lSearch = new JLabel("SEARCH");
@@ -64,27 +64,27 @@ public class ViewAdminMember extends JFrame {
         lSearch.setBounds(75,350,80,20);
         pMember.add(lEmail);
         lEmail.setBounds(75, 100, 160, 50);
-        pMember.add(lPassword);
-        lPassword.setBounds(75, 135, 160, 50);
         pMember.add(lName);
-        lName.setBounds(75, 170, 160, 50);
+        lName.setBounds(75, 135, 160, 50);
+        pMember.add(lNoHp);
+        lNoHp.setBounds(75, 170, 160, 50);
         pMember.add(lAddress);
         lAddress.setBounds(75, 225, 50, 20);
-        pMember.add(lNoHp);
-        lNoHp.setBounds(75, 245,160,50);
+        pMember.add(lPassword);
+        lPassword.setBounds(75, 245,160,50);
 
         pMember.add(tfSearch);
         tfSearch.setBounds(130,350,350,20);
         pMember.add(tfEmail);
         tfEmail.setBounds(150,115,350,20);
-        pMember.add(tfPassword);
-        tfPassword.setBounds(150,150,350,20);
         pMember.add(tfName);
-        tfName.setBounds(150,185,350,20);
+        tfName.setBounds(150,150,350,20);
+        pMember.add(tfNoHp);
+        tfNoHp.setBounds(150,185,350,20);
         pMember.add(tfAddress);
         tfAddress.setBounds(150,225,350,20);
-        pMember.add(tfNoHp);
-        tfNoHp.setBounds(150,260,350,20);
+        pMember.add(tfPassword);
+        tfPassword.setBounds(150,260,350,20);
 
         pMember.add(bSearch);
         bSearch.setBounds(480,350,90,20);
