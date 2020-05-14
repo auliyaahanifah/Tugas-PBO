@@ -96,7 +96,8 @@ public class ModelMemberPinjam {
                 String date = dtf.format(now);
 
                 String query = "INSERT INTO kartu_pinjam VALUES " +
-                        "(DEFAULT, '" + member.getEmail() + "', " + bookId + ", '" + date + "' , DEFAULT ,'dipinjam')";
+                        "(DEFAULT, '" + member.getEmail() + "', " +
+                        bookId + ", '" + date + "' , DEFAULT ,'dipinjam')";
                 statement = Database.getConnection().createStatement();
                 statement.executeUpdate(query);
                 updateBooks(bookId);
